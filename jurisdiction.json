@@ -1,0 +1,11 @@
+{
+  "path": "ru-nvs",
+  "code": "RU-NVS",
+  "name": "Novosibirsk Oblast",
+  "level": "region",
+  "parent": "ru",
+  "repo": "https://github.com/lexifina/russia-novosibirsk-law",
+  "build": "catalogue: facts only, no law text (Official Internet Portal of Legal Information metadata)",
+  "language": "ru",
+  "sources": 1
+}
