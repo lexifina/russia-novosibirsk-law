@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:23:42Z",
+ "generated": "2026-11-25T07:01:27Z",
  "latest": {
   "pravo-novosibirsk|russia/novosibirsk/acts": {
    "attempt": 1,
@@ -13,92 +13,42 @@
    },
    "census": {
     "checked": 1348,
-    "current": 1331,
+    "current": 1348,
     "gone": 0,
-    "held": 1331,
-    "newest_in_repo": "2026-10-30",
-    "pending": 17,
-    "repo": 1331,
+    "held": 1348,
+    "newest_in_repo": "2026-11-20",
+    "pending": 0,
+    "repo": 1348,
     "source_in_scope": 1348
    },
-   "check_id": "ru-pravo-novosibirsk-20261124T142036Z",
-   "commits": {
-    "count": 3,
-    "from": "1f2cde17c72a78568ce4d403476c531358ab8d8f",
-    "to": "703de6051a65e85f1c330215d2b3c9de85a7a57d"
-   },
+   "check_id": "ru-pravo-novosibirsk-20261125T062058Z",
+   "commits": null,
    "corpus": "russia/novosibirsk/acts",
    "error": null,
-   "finished": "2026-11-24T14:23:41Z",
+   "finished": "2026-11-25T06:21:32Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region54: 1348 law-type documents listed (every page read); 1331 held here; 17 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region54: 1348 law-type documents listed (every page read); 1348 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "5400202611030001",
-     "5400202611030002",
-     "5400202611030003",
-     "5400202611030004",
-     "5400202611030005",
-     "5400202611030006",
-     "5400202611030009",
-     "5400202611030013",
-     "5400202611200001",
-     "5400202611200002",
-     "5400202611200003",
-     "5400202611200004",
-     "5400202611200005",
-     "5400202611200006",
-     "5400202611200007",
-     "5400202611200008",
-     "5400202611200009"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
-   "requests": 11,
+   "requests": 10,
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "5400202611030001",
-     "5400202611030002",
-     "5400202611030003",
-     "5400202611030004",
-     "5400202611030005",
-     "5400202611030006",
-     "5400202611030009",
-     "5400202611030013",
-     "5400202611200001",
-     "5400202611200002",
-     "5400202611200003",
-     "5400202611200004",
-     "5400202611200005",
-     "5400202611200006",
-     "5400202611200007",
-     "5400202611200008",
-     "5400202611200009"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1348 law-type documents in block region54; newest published 2026-11-20",
    "source": "pravo-novosibirsk",
-   "started": "2026-11-24T14:20:36Z",
+   "started": "2026-11-25T06:20:58Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 2,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261124-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
