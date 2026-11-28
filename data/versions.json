@@ -1869,12 +1869,21 @@
     },
     {
      "from": "2026-11-20",
-     "to": null,
-     "status": "as captured",
+     "to": "2026-11-26",
+     "status": "replaced",
      "text_as_of": null,
      "units": 135,
      "source_url": "http://publication.pravo.gov.ru/api/Documents?Block=region54",
      "sha256": "abb52b9ace08c1b5f52e6d3ec84060a64f41de17cc86b73f72174cafed231b59"
+    },
+    {
+     "from": "2026-11-27",
+     "to": null,
+     "status": "as captured",
+     "text_as_of": null,
+     "units": 148,
+     "source_url": "http://publication.pravo.gov.ru/api/Documents?Block=region54",
+     "sha256": "64138dcf7357723eda6143420dc0e7135eb37ee6b68def2907e483bf39c27adc"
     }
    ]
   }
