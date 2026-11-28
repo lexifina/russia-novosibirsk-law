@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T06:10:44Z",
+ "generated": "2026-11-28T06:25:04Z",
  "latest": {
   "pravo-novosibirsk|russia/novosibirsk/acts": {
    "attempt": 1,
@@ -12,26 +12,44 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1348,
+    "checked": 1361,
     "current": 1348,
     "gone": 0,
     "held": 1348,
     "newest_in_repo": "2026-11-20",
-    "pending": 0,
+    "pending": 13,
     "repo": 1348,
-    "source_in_scope": 1348
+    "source_in_scope": 1361
    },
-   "check_id": "ru-pravo-novosibirsk-20261127T054222Z",
-   "commits": null,
+   "check_id": "ru-pravo-novosibirsk-20261128T055039Z",
+   "commits": {
+    "count": 2,
+    "from": "762f9722ddb0809ae86a6c80d6510c10996d7616",
+    "to": "cf05c1b7f9b0a5c196e744e747bd084f3a3d4071"
+   },
    "corpus": "russia/novosibirsk/acts",
    "error": null,
-   "finished": "2026-11-27T05:43:00Z",
+   "finished": "2026-11-28T05:51:27Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region54: 1348 law-type documents listed (every page read); 1348 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "no-change",
+   "note": "publication.pravo.gov.ru, block region54: 1361 law-type documents listed (every page read); 1348 held here; 13 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
    "published": {
-    "added": [],
+    "added": [
+     "5400202611270001",
+     "5400202611270002",
+     "5400202611270006",
+     "5400202611270007",
+     "5400202611270008",
+     "5400202611270009",
+     "5400202611270010",
+     "5400202611270011",
+     "5400202611270012",
+     "5400202611270013",
+     "5400202611270014",
+     "5400202611270015",
+     "5400202611270016"
+    ],
     "changed": [],
     "removed": []
    },
@@ -39,16 +57,40 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [],
+    "added": [
+     "5400202611270001",
+     "5400202611270002",
+     "5400202611270006",
+     "5400202611270007",
+     "5400202611270008",
+     "5400202611270009",
+     "5400202611270010",
+     "5400202611270011",
+     "5400202611270012",
+     "5400202611270013",
+     "5400202611270014",
+     "5400202611270015",
+     "5400202611270016"
+    ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1348 law-type documents in block region54; newest published 2026-11-20",
+   "snapshot": "1361 law-type documents in block region54; newest published 2026-11-27",
    "source": "pravo-novosibirsk",
-   "started": "2026-11-27T05:42:22Z",
+   "started": "2026-11-28T05:50:39Z",
    "unexplained": 0,
    "update": {
-    "parts": []
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261128-001.json"
+    ]
    },
    "verify": {
     "cycle_days": 1,
@@ -57,7 +99,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 13,
-    "versions_checked": 197,
+    "versions_checked": 198,
     "versions_differ": 0
    }
   }
